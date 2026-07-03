@@ -1,0 +1,317 @@
+[
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Tomato",
+    "disease_name": "Tomato Leaf Curl Virus (ToLCV)",
+    "cause": "This disease is caused by a virus that is spread by tiny whiteflies from one plant to another.",
+    "immediate_action_steps": [
+      "Immediately remove and destroy all infected plants to prevent the virus from spreading further.",
+      "Spray an appropriate insecticide, such as Imidacloprid, to control the whiteflies that carry the virus.",
+      "Place yellow sticky traps around your tomato plants to catch and reduce the whitefly population."
+    ],
+    "prevention_tips": [
+      "Choose and plant tomato varieties that are known to be resistant to the leaf curl virus.",
+      "Regularly remove weeds from and around your field, as they can host whiteflies and the virus."
+    ],
+    "severity": "High",
+    "location_city": "Nashik",
+    "weather_note": "The current temperature of 23.9°C is favorable for whitefly activity, which are the carriers of this virus. The high humidity and lack of rain also create good conditions for whiteflies to thrive and spread the disease.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "0ad40db1aa9d4337a6a0367c16ae8f85",
+    "timestamp": "2026-07-01 17:49:05",
+    "problem_description": "My tomato plants in Nashik are showing curly, yellow leaves. The growth is stunted and new leaves are very small. It is mid-October.",
+    "image_filename": null,
+    "weather": {
+      "city": "Nashik",
+      "temp": 23.9,
+      "humidity": 95,
+      "precipitation": 0.0,
+      "description": "Moderate drizzle",
+      "wind_speed": 17.5,
+      "source": "Open-Meteo"
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Tomato",
+    "disease_name": "Tomato Leaf Curl Virus (ToLCV)",
+    "cause": "This disease is caused by a virus that is spread by small whiteflies from infected plants to healthy ones.",
+    "immediate_action_steps": [
+      "Remove and destroy all infected plants immediately to prevent the virus from spreading to healthy plants.",
+      "Spray an appropriate insecticide like Imidacloprid or Thiamethoxam to control the whiteflies that carry the virus.",
+      "Place yellow sticky traps around your field to catch and monitor whitefly populations."
+    ],
+    "prevention_tips": [
+      "Plant virus-free seedlings and choose resistant varieties of tomato if they are available in your region.",
+      "Keep your field free of weeds, as many weeds can host both the virus and the whiteflies."
+    ],
+    "severity": "High",
+    "location_city": "Nashik",
+    "weather_note": "The current high humidity (95%) and warm temperature (23.9°C) are favorable conditions for whiteflies, which are the main carriers of the Tomato Leaf Curl Virus, to thrive and spread the disease.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "52dd8d5faff24df38a45292759d600e7",
+    "timestamp": "2026-07-01 17:45:25",
+    "problem_description": "My tomato plants in Nashik are showing curly, yellow leaves. The growth is stunted and new leaves are very small. It is mid-October.",
+    "image_filename": null,
+    "weather": {
+      "city": "Nashik",
+      "temp": 23.9,
+      "humidity": 95,
+      "precipitation": 0.0,
+      "description": "Moderate drizzle",
+      "wind_speed": 17.5,
+      "source": "Open-Meteo"
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Aphid Infestation with Sooty Mold",
+    "cause": "Tiny insects called aphids are sucking the sap from your cotton plants, and their sugary excretions (honeydew) are causing the black sooty mold to grow.",
+    "immediate_action_steps": [
+      "Gently spray the affected plants with a strong stream of water to wash off as many aphids as possible.",
+      "Prepare a neem oil solution by mixing neem oil with water and a small amount of mild soap, then spray it thoroughly on all affected leaves, especially the undersides.",
+      "Carefully remove and destroy any severely infested leaves or plant parts to stop the aphids from spreading further."
+    ],
+    "prevention_tips": [
+      "Regularly check your cotton plants, especially new growth and the undersides of leaves, for any early signs of aphids.",
+      "Encourage beneficial insects like ladybugs, which are natural predators of aphids, by planting marigolds or other flowering plants nearby."
+    ],
+    "severity": "High",
+    "location_city": "Gujarat",
+    "weather_note": "The current warm temperature (26.3°C) and high humidity (94%) in Gujarat are very favorable conditions for aphids to multiply rapidly and for sooty mold to spread on your cotton plants.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "03355a4f7c094585879a59224c7f3aad",
+    "timestamp": "2026-07-01 17:39:24",
+    "problem_description": "My cotton plants in Gujarat have sticky, shiny leaves with black sooty patches. Leaves are curling downward and there are tiny white insects underneath. It's early monsoon season",
+    "image_filename": "30e2229d8b5b4bdb81d57e289c4ced74_image 1.jpeg",
+    "weather": {
+      "city": "Gujarat",
+      "temp": 26.3,
+      "humidity": 94,
+      "precipitation": 0.0,
+      "description": "Thunderstorm",
+      "wind_speed": 2.6,
+      "source": "Open-Meteo"
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Tomato",
+    "disease_name": "Tomato Leaf Curl Virus (ToLCV)",
+    "cause": "This disease is caused by a virus that is spread by tiny whiteflies from one plant to another.",
+    "immediate_action_steps": [
+      "Carefully remove and destroy all infected plants immediately to prevent the virus from spreading to healthy plants.",
+      "Spray an appropriate insecticide like Imidacloprid or Thiamethoxam to control whiteflies, focusing on the underside of leaves.",
+      "Place yellow sticky traps around your tomato field to catch adult whiteflies and reduce their population."
+    ],
+    "prevention_tips": [
+      "Always use healthy, virus-free seedlings and consider planting varieties known to be resistant to leaf curl virus.",
+      "Regularly inspect your plants for whiteflies and remove any weeds around your field, as they can host both the virus and the insects."
+    ],
+    "severity": "High",
+    "location_city": "Nashik",
+    "weather_note": "The current temperature of 23.9°C and high humidity of 95% are very favorable conditions for whiteflies, which are the main carriers of the Tomato Leaf Curl Virus, to thrive and spread the disease.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "851221009bcd48e1960bbd3a271f982b",
+    "timestamp": "2026-07-01 17:32:16",
+    "problem_description": "My tomato plants in Nashik are showing curly, yellow leaves. The growth is stunted and new leaves are very small. It is mid-October.",
+    "image_filename": null,
+    "weather": {
+      "city": "Nashik",
+      "temp": 23.9,
+      "humidity": 95,
+      "precipitation": 0.0,
+      "description": "Dense drizzle",
+      "wind_speed": 17.2,
+      "source": "Open-Meteo"
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Powdery Mildew",
+    "cause": "Powdery mildew is caused by a fungus that thrives in warm, humid conditions and spreads through spores carried by wind.",
+    "immediate_action_steps": [
+      "Carefully remove and destroy any severely infected leaves and stems to stop the disease from spreading further.",
+      "Spray your cotton plants with a suitable fungicide, such as wettable sulfur, following the instructions on the product label.",
+      "Improve air circulation around your plants by gently pruning any dense foliage, especially near the bottom."
+    ],
+    "prevention_tips": [
+      "Choose cotton varieties that are known to be resistant to powdery mildew if available for your next planting.",
+      "Ensure proper spacing between your cotton plants to allow good airflow, which helps keep the leaves dry and less prone to fungal growth."
+    ],
+    "severity": "High",
+    "location_city": "Surat",
+    "weather_note": "The current temperature of 31.1°C and 70% humidity in Surat are favorable conditions for powdery mildew to develop and spread, as this fungus thrives in warm and moderately humid environments.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "1e2d08f6f51b455ea2809d69ed1ada06",
+    "timestamp": "2026-06-27 19:10:21",
+    "problem_description": "My cotton crop in Surat, Gujarat has wilting leaves even though I water it. The leaves are yellowing from the bottom and there is white powder on the stems in late June.",
+    "image_filename": null,
+    "weather": {
+      "city": "Surat",
+      "temp": 31.1,
+      "humidity": 70,
+      "precipitation": 0.0,
+      "description": "Overcast",
+      "wind_speed": 15.4,
+      "source": "Open-Meteo"
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Powdery Mildew",
+    "cause": "This disease is caused by a fungus that thrives in dry conditions with fluctuating humidity, often spreading by wind.",
+    "immediate_action_steps": [
+      "Carefully remove and destroy severely infected leaves and stems to reduce the spread of the fungus.",
+      "Spray a suitable fungicide like wettable sulfur or a systemic fungicide (e.g., Azoxystrobin) on the affected plants, following the product instructions.",
+      "Improve air circulation around your cotton plants by proper spacing and light pruning of dense foliage."
+    ],
+    "prevention_tips": [
+      "For future plantings, consider using cotton varieties that are known to be resistant to powdery mildew.",
+      "Avoid over-fertilizing with nitrogen, as this can lead to lush, soft growth that is more susceptible to the disease."
+    ],
+    "severity": "High",
+    "location_city": "Amreli",
+    "weather_note": "The current dry weather with no precipitation is favorable for the spread of powdery mildew spores. While high temperatures can sometimes limit its growth, the overall dry conditions support its development.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "70aaae36fa2f44ebafb72b2515ac28bc",
+    "timestamp": "2026-06-27 19:07:20",
+    "problem_description": "My cotton crop in amreli, Gujarat has wilting leaves even though I water it. The leaves are yellowing from the bottom and there is white powder on the stems in late June.",
+    "image_filename": null,
+    "weather": {
+      "city": "Amreli",
+      "temp": 34.8,
+      "humidity": 40,
+      "precipitation": 0.0
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Powdery Mildew",
+    "cause": "Powdery mildew is caused by a fungus that grows on the surface of leaves and stems, often appearing as white powdery spots, and can stress the plant causing wilting and yellowing.",
+    "immediate_action_steps": [
+      "Remove and destroy severely infected leaves and stems to prevent the disease from spreading further.",
+      "Spray a suitable fungicide like wettable sulfur or neem oil solution on the affected cotton plants.",
+      "Improve air circulation around your plants by carefully pruning any excess foliage."
+    ],
+    "prevention_tips": [
+      "Choose and plant cotton varieties that are known to be resistant to powdery mildew if available in your area.",
+      "Ensure proper spacing between your cotton plants to allow good air movement, which helps keep leaves dry."
+    ],
+    "severity": "High",
+    "location_city": "Amreli",
+    "weather_note": "The current temperature of 34.8°C is a bit warm for ideal powdery mildew, but the low humidity and absence of rain mean the fungal spores are not washed away, which can allow the disease to persist, especially if morning dew occurs.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "43aa2d68c56f448599db1186f7f22e53",
+    "timestamp": "2026-06-27 19:06:46",
+    "problem_description": "My cotton crop in amreli, Gujarat has wilting leaves even though I water it. The leaves are yellowing from the bottom and there is white powder on the stems in late June.",
+    "image_filename": null,
+    "weather": {
+      "city": "Amreli",
+      "temp": 34.8,
+      "humidity": 40,
+      "precipitation": 0.0
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Powdery Mildew",
+    "cause": "Powdery mildew is caused by a fungus that thrives in warm, humid conditions, spreading through spores carried by wind.",
+    "immediate_action_steps": [
+      "Remove and destroy severely infected leaves and stems to prevent the disease from spreading further.",
+      "Spray a suitable fungicide like wettable sulfur or a neem-based oil on the affected plants, following product instructions carefully.",
+      "Ensure good air circulation around your cotton plants by carefully pruning any dense foliage."
+    ],
+    "prevention_tips": [
+      "Choose and plant cotton varieties that are known to be resistant to powdery mildew if available in your area.",
+      "Avoid overhead irrigation, especially in the evening, to keep the leaves dry and reduce humidity around the plants."
+    ],
+    "severity": "High",
+    "location_city": "Surat",
+    "weather_note": "The current temperature of 31.1°C and high humidity of 68% in Surat are very favorable conditions for powdery mildew to develop and spread rapidly.",
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "68da9aaa23884dec9e70a08dc2cf6375",
+    "timestamp": "2026-06-27 19:02:31",
+    "problem_description": "My cotton crop in Surat, Gujarat has wilting leaves even though I water it. The leaves are yellowing from the bottom and there is white powder on the stems in late June.",
+    "image_filename": null,
+    "weather": {
+      "city": "Surat",
+      "temp": 31.1,
+      "humidity": 68,
+      "precipitation": 0.0
+    }
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Tomato",
+    "disease_name": "Tomato Leaf Curl Virus (ToLCV)",
+    "cause": "This disease is caused by a virus and is spread by tiny whiteflies that feed on the plants.",
+    "immediate_action_steps": [
+      "Remove and destroy all infected plants immediately to prevent the virus from spreading to healthy plants.",
+      "Spray an appropriate insecticide like Imidacloprid or Thiamethoxam to control the whitefly population.",
+      "Place yellow sticky traps around your field to catch and monitor whiteflies."
+    ],
+    "prevention_tips": [
+      "Choose and plant tomato varieties that are known to be resistant to the leaf curl virus.",
+      "Regularly remove weeds from and around your field, as they can harbor whiteflies and the virus."
+    ],
+    "severity": "High",
+    "location_city": "Nashik",
+    "weather_note": null,
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "0826273c040a4175b454c9d0f6523822",
+    "timestamp": "2026-06-27 18:58:10",
+    "problem_description": "My tomato plants in Nashik are showing curly, yellow leaves. The growth is stunted and new leaves are very small. It is mid-October.",
+    "image_filename": null,
+    "weather": null
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Powdery Mildew",
+    "cause": "This disease is caused by a fungus that grows on the surface of plant parts, forming white powdery patches and drawing nutrients from the plant.",
+    "immediate_action_steps": [
+      "Carefully remove and destroy any heavily infected leaves and stems to reduce the amount of fungus.",
+      "Spray your cotton plants with a recommended fungicide like wettable sulfur or a systemic fungicide, following the instructions on the product label.",
+      "Ensure good air circulation around the plants by removing any weeds and avoiding overly dense planting."
+    ],
+    "prevention_tips": [
+      "Select cotton varieties that are known to be resistant to powdery mildew for your next planting season.",
+      "Maintain proper spacing between plants and prune lower leaves to improve air flow and reduce humidity around the plants."
+    ],
+    "severity": "Medium",
+    "location_city": "Surat",
+    "weather_note": null,
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "893cc084e58c46f381d8c39427a8d6cf",
+    "timestamp": "2026-06-27 18:54:12",
+    "problem_description": "My cotton crop in Surat, Gujarat has wilting leaves even though I water it. The leaves are yellowing from the bottom and there is white powder on the stems in late June.",
+    "image_filename": null,
+    "weather": null
+  }
+]

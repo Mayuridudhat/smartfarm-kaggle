@@ -1,0 +1,12 @@
+# Local environment variables configuration file
+.env
+
+# Python cache folder and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local database/history uploads/logs
+history.json
+static/uploads/

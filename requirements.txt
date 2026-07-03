@@ -1,0 +1,6 @@
+flask
+google-genai
+pydantic
+python-dotenv
+reportlab
+pillow
