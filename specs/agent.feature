@@ -1,71 +1,67 @@
 Feature: SmartFarm Crop Advisory Agent
-  As a farmer
-  I want to interact with SmartFarm using text, voice, and images
-  So that I can diagnose crop diseases, view weather warnings, check disease severity, translate results to Hindi, view history, and export PDF reports.
 
-  Scenario: Diagnosing a crop disease using text description
-    Given the farmer is on the SmartFarm home page
-    When the farmer enters the crop issue: "My cotton crop in Surat, Gujarat has wilting leaves even though I water it. The leaves are yellowing from the bottom and there is white powder on the stems in late June."
-    And the farmer submits the form
-    Then the system should display a structured diagnosis report
-    And the report must contain "🌾 Crop: Cotton"
-    And the report must contain a 1-sentence cause
-    And the report must contain exactly 3 immediate action steps
-    And the report must contain exactly 2 prevention tips
-    And the report must contain the helpline number "1800-180-1551"
+  Background:
+    Given the SmartFarm agent is running
+    And Gemini API is connected
+    And Open-Meteo weather API is available
 
-  Scenario: Multimodal crop disease diagnosis with image upload
-    Given the farmer is on the SmartFarm home page
-    When the farmer uploads a crop photo "cotton_wilt.jpg"
-    And the farmer enters the crop issue: "Leaves are turning yellow from the base of the stems"
-    And the farmer submits the form
-    Then the system should display the image preview in the results panel
-    And the system should call the Gemini Vision API to analyze both image and text
-    And the system should display the correct disease diagnosis report
+  Scenario: Farmer reports cotton crop disease
+    Given a farmer types "My cotton crop in Surat Gujarat has wilting leaves and white powder on stems in late June"
+    When the agent processes the input
+    Then it should identify the disease as Collar Rot or Powdery Mildew
+    And return cause, immediate action steps and prevention tips
+    And show severity as High or Critical
+    And display current weather for Surat
+    And include Kisan helpline number 1800-180-1551
 
-  Scenario: Voice input transcription using Web Speech API
-    Given the farmer is on the SmartFarm home page
-    When the farmer selects language "🇮🇳 हिंदी"
-    And the farmer clicks the microphone button
-    And the farmer speaks: "मेरे कपास के पौधे सूख रहे हैं"
-    Then the system should transcribe the speech and fill the text area with "मेरे कपास के पौधे सूख रहे हैं"
+  Scenario: Farmer reports rice crop disease
+    Given a farmer types "My rice crop in Kolkata West Bengal has brown spots on leaves with grey centers"
+    When the agent processes the input
+    Then it should identify the disease as Brown Spot
+    And return structured diagnosis report
+    And show severity level with color indicator
 
-  Scenario: Severity rating colored progress bar display
-    Given the farmer is on the SmartFarm home page
-    When the farmer submits a description of a highly destructive disease like "Rice Blast"
-    Then the system should show the disease severity as "High"
-    And the system should display an orange progress bar and severity badge in the results panel
+  Scenario: Farmer uploads crop photo
+    Given a farmer uploads an image of a diseased crop
+    And types a description of symptoms
+    When the agent processes both image and text together
+    Then it should use visual context for better diagnosis
+    And return more accurate disease identification
 
-  Scenario: Local diagnosis history tracking and retrieval
-    Given the farmer is on the SmartFarm home page
-    When the farmer submits a diagnosis for a "Tomato Leaf Curl" issue
-    Then the system should save the diagnosis in the local "history.json" file
-    And the "Recent Diagnoses" section should list "Tomato Leaf Curl" as a clickable history card
-    When the farmer clicks on the history card
-    Then the system should display the full saved diagnosis report without calling the API again
+  Scenario: Voice input in Hindi
+    Given a farmer clicks the microphone button
+    And selects Hindi language
+    And speaks their crop problem in Hindi
+    When speech is converted to text
+    Then the text appears in the input box automatically
+    And diagnosis works normally with Hindi input
 
-  Scenario: Favorable weather context warning display
-    Given the farmer is on the SmartFarm home page
-    When the farmer submits the issue: "My cotton crop in Surat is wilting in late June"
-    Then the system should fetch the current weather for "Surat"
-    And the system should display current temperature, humidity, and precipitation in the weather widget
-    And the report should include a warning note if weather conditions are favorable for the disease to spread
+  Scenario: Export diagnosis as PDF
+    Given a diagnosis has been completed successfully
+    When the farmer clicks Download Report button
+    Then a PDF is generated with disease name, cause, action steps and prevention
+    And PDF includes Kisan helpline number 1800-180-1551
 
-  Scenario: Exporting diagnosis report to PDF format
-    Given the farmer has received a crop diagnosis report
-    When the farmer clicks the "Download Report PDF" button
-    Then the system should generate a PDF file containing:
-      | Section | Content |
-      | Logo | SmartFarm Logo |
-      | Disease Name | The diagnosed disease |
-      | Cause | The 1-sentence cause |
-      | Actions | 3 immediate action steps |
-      | Prevention | 2 prevention tips |
-      | Helpline | Kisan Call Center: 1800-180-1551 |
-    And the system should download the PDF file to the farmer's device
+  Scenario: View diagnosis history
+    Given multiple diagnoses have been completed
+    When the farmer views the history section
+    Then last 5 diagnoses are shown with crop name and timestamp
+    And each history item is clickable to view full details
 
-  Scenario: Translating diagnosis report to Hindi
-    Given the farmer has received a crop diagnosis report in English
-    When the farmer clicks the "🔄 Show in Hindi" button
-    Then the system should translate the entire report to Hindi using the Gemini API
-    And the results panel should display all text in Hindi script (Devanagari)
+  Scenario: Hindi translation of results
+    Given a diagnosis result is shown in English
+    When the farmer clicks Show in Hindi button
+    Then the full diagnosis is translated to Hindi by Gemini API
+    And all sections including cause and action steps appear in Hindi
+
+  Scenario: Weather context affects diagnosis
+    Given a farmer submits a crop problem with location
+    When the agent fetches real time weather for that location
+    Then it displays current temperature and humidity
+    And adds a note if weather conditions favor disease spreading
+
+  Scenario: Agent handles unknown crop
+    Given a farmer describes symptoms for an unrecognized crop
+    When the agent cannot find a confident match
+    Then it asks one clarifying question
+    And does not return empty or incorrect output
