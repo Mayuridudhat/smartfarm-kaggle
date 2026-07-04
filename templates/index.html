@@ -474,7 +474,7 @@
                 if (data.id) {
                     pdfBtn.style.display = 'inline-flex';
                     pdfBtn.onclick = () => {
-                        window.location.href = `/export/${data.id}`;
+                        window.open(`/export/${data.id}`, '_blank');
                     };
                 } else {
                     pdfBtn.style.display = 'none';
