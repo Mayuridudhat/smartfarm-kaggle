@@ -3,6 +3,32 @@
     "is_ambiguous": false,
     "clarifying_question": null,
     "is_healthy": false,
+    "crop": "Cotton",
+    "disease_name": "Bacterial Blight of Cotton",
+    "cause": "This disease is caused by a bacterium called Xanthomonas axonopodis pv. malvacearum, which thrives in warm, humid conditions and spreads through rain splash or contaminated seeds.",
+    "immediate_action_steps": [
+      "Remove and destroy all infected leaves and plant parts to prevent the disease from spreading further.",
+      "Spray a copper-based fungicide or bactericide on the affected plants, following the instructions carefully.",
+      "Improve air circulation around your plants by pruning excess foliage and ensuring proper plant spacing."
+    ],
+    "prevention_tips": [
+      "Always use certified, disease-free seeds or treat your seeds with a recommended bactericide before planting.",
+      "Practice crop rotation with non-cotton crops to break the disease cycle in the soil and reduce future infections."
+    ],
+    "severity": "High",
+    "location_city": null,
+    "weather_note": null,
+    "helpline": "Kisan Call Center: 1800-180-1551",
+    "id": "62bbc82434074f07a88b9951811bce95",
+    "timestamp": "2026-07-03 22:06:58",
+    "problem_description": "what is wrong with this plant",
+    "image_filename": "8027c14780924ceca921a43054b0ce06_image2.jpeg",
+    "weather": null
+  },
+  {
+    "is_ambiguous": false,
+    "clarifying_question": null,
+    "is_healthy": false,
     "crop": "Tomato",
     "disease_name": "Tomato Leaf Curl Virus (ToLCV)",
     "cause": "This disease is caused by a virus that is spread by tiny whiteflies from one plant to another.",
